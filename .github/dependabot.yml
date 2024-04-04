@@ -19,7 +19,7 @@ updates:
     schedule:
       interval: weekly
       day: monday
-      time: 04:00
+      time: "04:00"
       timezone: Canada/Pacific
 
   # Maintain dependencies for Vue
@@ -28,7 +28,7 @@ updates:
     schedule:
       interval: weekly
       day: monday
-      time: 04:00
+      time: "04:00"
       timezone: Canada/Pacific
 
   # Maintain dependencies for docker
@@ -37,7 +37,7 @@ updates:
     schedule:
       interval: weekly
       day: monday
-      time: 04:00
+      time: "04:00"
       timezone: Canada/Pacific
   
     # Maintain dependencies for docker
@@ -46,5 +46,5 @@ updates:
     schedule:
       interval: weekly
       day: monday
-      time: 04:00
+      time: "04:00"
       timezone: Canada/Pacific
