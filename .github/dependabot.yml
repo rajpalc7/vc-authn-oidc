@@ -24,7 +24,7 @@ updates:
 
   # Maintain dependencies for Vue
   - package-ecosystem: npm
-    directory: /demo/vue
+    directory: /demo/vue/app
     schedule:
       interval: weekly
       day: monday
@@ -40,3 +40,11 @@ updates:
       time: 04:00
       timezone: Canada/Pacific
   
+    # Maintain dependencies for docker
+  - package-ecosystem: docker
+    directory: /demo/vue
+    schedule:
+      interval: weekly
+      day: monday
+      time: 04:00
+      timezone: Canada/Pacific
