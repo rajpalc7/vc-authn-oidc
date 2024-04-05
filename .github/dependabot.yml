@@ -42,9 +42,7 @@ updates:
 
   # Maintain dependencies for docker
   - package-ecosystem: docker
-    directory: /docker
-    assignees:
-      - "dependabot"
+    directory: /
     schedule:
       interval: "weekly"
       day: "monday"
