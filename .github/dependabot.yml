@@ -41,7 +41,7 @@ updates:
       timezone: "Canada/Pacific"
 
   # Maintain dependencies for docker
-  - package-ecosystem: docker
+  - package-ecosystem: "docker-compose"
     directory: /
     schedule:
       interval: "weekly"
@@ -53,14 +53,6 @@ updates:
     # Maintain dependencies for docker
   - package-ecosystem: "docker"
     directory: "/demo/vue"
-    schedule:
-      interval: "weekly"
-      day: "monday"
-      time: "04:00"
-      timezone: "Canada/Pacific"
-
-  - package-ecosystem: "composer"
-    directory: "/"
     schedule:
       interval: "weekly"
       day: "monday"
