@@ -42,7 +42,7 @@ updates:
 
   # Maintain dependencies for docker
   - package-ecosystem: docker
-    directory: /docker-compose
+    directory: /docker
     schedule:
       interval: "weekly"
       day: "monday"
