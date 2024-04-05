@@ -33,7 +33,7 @@ updates:
 
   # Maintain dependencies for docker
   - package-ecosystem: docker
-    directory: /docker/oidc-controller/Dockerfile
+    directory: /docker/oidc-controller
     schedule:
       interval: "weekly"
       day: "monday"
