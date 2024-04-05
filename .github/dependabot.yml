@@ -33,7 +33,7 @@ updates:
 
   # Maintain dependencies for docker
   - package-ecosystem: "docker"
-    directory: "/docker/oidc-controller"
+    directory: /docker/oidc-controller
     schedule:
       interval: "weekly"
       day: "monday"
@@ -41,8 +41,8 @@ updates:
       timezone: "Canada/Pacific"
 
   # Maintain dependencies for docker
-  - package-ecosystem: "docker-compose"
-    directory: /
+  - package-ecosystem: docker
+    directory: /docker-compose
     schedule:
       interval: "weekly"
       day: "monday"
@@ -51,8 +51,8 @@ updates:
       
   
     # Maintain dependencies for docker
-  - package-ecosystem: "docker"
-    directory: "/demo/vue"
+  - package-ecosystem: docker
+    directory: /demo/vue
     schedule:
       interval: "weekly"
       day: "monday"
