@@ -57,4 +57,4 @@ updates:
       interval: "weekly"
       day: "monday"
       time: "04:00"
-      timezone: "Canada/Pacific"
+      timezone: Canada/Pacific
