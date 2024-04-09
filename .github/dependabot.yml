@@ -14,8 +14,8 @@ updates:
         patterns: [ "*" ]
   
   # Maintain dependencies for Python packages
-  - package-ecosystem: pip
-    directory: /oidc-controller
+  - package-ecosystem: "pip"
+    directory: "/oidc-controller"
     schedule:
       interval: "weekly"
       day: "monday"
@@ -23,8 +23,17 @@ updates:
       timezone: "Canada/Pacific"
 
   # Maintain dependencies for Vue
-  - package-ecosystem: npm
-    directory: /demo/vue/app
+  - package-ecosystem: "npm"
+    directory: "/demo/vue/app"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "04:00"
+      timezone: "Canada/Pacific"
+
+  # Maintain dependencies for Vue
+  - package-ecosystem: "npm"
+    directory: "/demo/vue/app/frontend"
     schedule:
       interval: "weekly"
       day: "monday"
@@ -32,8 +41,8 @@ updates:
       timezone: "Canada/Pacific"
 
   # Maintain dependencies for docker
-  - package-ecosystem: docker
-    directory: /docker/oidc-controller
+  - package-ecosystem: "docker"
+    directory: "/docker/oidc-controller"
     schedule:
       interval: "weekly"
       day: "monday"
@@ -41,8 +50,8 @@ updates:
       timezone: "Canada/Pacific"
         
     # Maintain dependencies for docker
-  - package-ecosystem: docker
-    directory: /demo/vue
+  - package-ecosystem: "docker"
+    directory: "/demo/vue"
     schedule:
       interval: "weekly"
       day: "monday"
