@@ -20,7 +20,7 @@
     "@babel/eslint-parser": "^7.24.1",
     "@bcgov/bc-sans": "^2.1.0",
     "axios": "^1.6.8",
-    "core-js": "^3.36.1",
+    "core-js": "^3.37.1",
     "eslint": "^8.57.0",
     "keycloak-js": "^15.0.2",
     "nprogress": "^0.2.0",
